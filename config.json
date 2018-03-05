@@ -1,4 +1,4 @@
-{
+ {
   "video": {
     "width": "auto",
     "height": "auto",
@@ -12,7 +12,9 @@
     "hide_portals_by_click": true,
     "cursor_visibility": false,
     "bindings": {
-      "look_analogue": ["mouse_move"]
+      "look_analogue": ["mouse_move"],
+      "fire_pimary": ["mouse_button_left"],
+      "fire_secondary": ["mouse_button_right"]
     }
   },
   "keyboard": {
@@ -22,7 +24,8 @@
       "back": ["S", "Down"],
       "left": ["A", "Left"],
       "right": ["D", "Right"],
-      "quit": ["Q"]
+      "quit": ["Q"],
+      "pause": ["Escape"]
     }
   },
   "controller": {
