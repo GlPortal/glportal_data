@@ -32,7 +32,9 @@
     "bindings": {
       "jump": ["button_a"],
       "move_analogue": ["stick_left"],
-      "look_analogue": ["stick_right"]
+      "look_analogue": ["stick_right"],
+      "fire_pimary": ["trigger_right"],
+      "fire_secondary": ["trigger_left"]
     },
     "sensitivity": {
       "stick_left": 1.0,
